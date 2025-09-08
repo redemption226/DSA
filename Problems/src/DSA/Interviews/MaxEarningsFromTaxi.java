@@ -1,4 +1,4 @@
-package DSA.Myntra;
+package DSA.Interviews;
 
 import java.util.Arrays;
 

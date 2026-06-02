@@ -19,13 +19,12 @@ public class ChemicalFormula {
         Map<Character, Integer> weightMap = new HashMap<>();
         weightMap.put('C', 12);
         weightMap.put('H', 1);
-        weightMap.put('O', 16);
+        weightMap.put('O', 8);
         weightMap.put('(', -1);
 
         Stack<Integer> stack = new Stack<>();
         for (int i = 0; i<charArray.length; i++) {
             char ch = charArray[i];
-
 
             if (weightMap.containsKey(ch)) {
                 stack.push(weightMap.get(ch));

@@ -1,5 +1,6 @@
 package DSA.Greedy;
 
+//https://leetcode.com/problems/frog-jump-ii/
 public class FrogJump2 {
 
     public static void main(String[] args) {
